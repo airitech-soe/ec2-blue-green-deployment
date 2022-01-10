@@ -1,0 +1,37 @@
+#contentmgmt > .container {
+    margin-top: 0rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav {
+    font-size: small;
+}
+
+.nav-link {
+    color: #cdcfd1;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #f2f8fd;
+    font-weight: 500;
+}
+
+.nav-tabs {
+    border-bottom: 0px;
+    background-color: #41464b;
+    padding-left: 2.8rem;
+}
+
+/* .tab-content > div > .row {
+    margin-left: 0;
+    margin-right: 0;
+} */
+
+.tab-content {
+    padding: 0rem 3rem;
+}

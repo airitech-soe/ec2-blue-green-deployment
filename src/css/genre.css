@@ -1,0 +1,79 @@
+
+#genre > .row {
+   margin-left: 0rem;
+   margin-right: 0rem;
+   padding-left: 0rem;
+   padding-right: 0rem;
+}
+
+#search-form {
+    padding-left: 0rem;
+}
+
+#newgenre > div {
+    margin-left: -0.8rem;
+}
+
+#search-item {
+    border: 1px solid;
+}
+
+#search-lbl {
+    background-color: #41464b;
+    margin-left: 0rem;
+    color: #cdcfd1;
+}
+
+hr {
+    color:#212529;
+    margin-bottom: 0rem;
+}
+
+.dropdown-toggle::after {
+    margin-left: 1.255em;
+}
+
+.dropdown > button:focus {
+    color: #212529;
+}
+
+.show>#sort-ddl-btn.dropdown-toggle {
+    color: #212529;
+}
+
+#sort-lbl {
+    padding-top: 1.4rem;
+    display: inline-block;
+    width: 90%;
+    text-align: right;
+}
+
+#radios {
+    padding-top: 1.4rem;
+}
+
+.search-btns {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+}
+
+#sort-lbl-area {
+    padding-left: 0rem;
+}
+
+#sort-ddl-list {
+    margin-top: 1rem;
+}
+
+#genre-list > div {
+    padding: 1.5rem 0rem;
+}
+
+#genre-list {
+    font-size: small;
+}
+
+#genre-tbl > thead {
+    background: #41464b;
+    color: #fff;
+}

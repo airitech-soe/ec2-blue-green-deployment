@@ -1,0 +1,34 @@
+#login {
+    margin-top: 5%;
+}
+
+.card-height {
+    height: 100%;
+}
+
+.card {
+    background-color: #212529b5;
+    padding: 0.7rem 1rem 0rem 1rem;
+}
+
+h3 {
+    color: #2020b7;
+}
+
+#uliza-img {
+    background-color: #212529b5;
+}
+
+#loginForm > div {
+    margin-bottom: 1.5rem;
+}
+
+#lbl-id {
+    color: aliceblue;
+}
+
+.errMsg {
+    color: red;
+    font-weight: bold;
+    font-size: 0.8rem;
+}

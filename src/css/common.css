@@ -1,0 +1,115 @@
+/* main */
+#main, #siteheader, #navbar, #contentmgmt {
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+/* SiteHeader */
+h5 {
+    color: #2020b7;
+    padding: 0rem 1rem 0rem 2.5rem;
+}
+
+h5 > span {
+    font-size: larger;
+    color: #911158;
+}
+
+.header {
+    display: inline-flex;
+    padding: 0.3rem 0rem 0.15rem 0rem;
+}
+
+.header > img {
+    margin-top: 0.25rem;
+}
+
+/* Navbar */
+.navbar {
+    background-color: grey;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.navbar > .container {
+    margin-top: 0;
+    padding: 0.3rem 0rem 0.15rem 0rem;
+    margin-left: 2rem;
+    margin-right: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#f8f9fa;
+    font-weight: 600;
+    font-family: 'Roboto';
+    font-size: small;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #f8f9fa;
+}
+
+.navbar-nav > span {
+    padding-top: 0.25rem;
+    color: #8f9ba7;
+}
+
+/* Footer */
+#footer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1rem;
+}
+
+/* Buttons */
+.btn {
+    margin: 1.3rem 0 0.4rem 0;
+    width: 100%;
+    color: black;
+    background-color: whitesmoke!important;
+    border-radius: 0.5rem;
+    border-color: #0c0c0c;
+    font-weight: bold;
+}
+
+.btn:hover{
+    color: black; 
+}
+
+.btn:active{
+    color: black; 
+}
+
+button[type="submit"]:hover{
+    color: black; 
+}
+
+#footer > .container-fluid {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#footer > .container-fluid > .row {
+    flex: 1;
+    background-color: #41464b;
+    padding: 1rem 0.5rem 0rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+p {
+    text-align: right;
+    color: #cdcfd1;
+    font-weight: 600;
+    font-family: 'Roboto';
+    font-size: small;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+hr {
+    opacity: 1;
+    color: #cdcfd1;
+    margin-bottom: 1rem;
+    padding-left: 3rem;
+}
